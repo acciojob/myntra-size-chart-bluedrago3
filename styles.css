@@ -1,2 +1,20 @@
 
 /* Your CSS Code here. */
+.table-head-horiz{
+	background-color:#C0504D;
+	
+}
+
+.heading{
+	text-align:left;
+}
+td{
+	width:50px;
+}
+
+thead>td{
+	text-align:left;
+}
+tbody>tr{
+	text-align:right;
+}
