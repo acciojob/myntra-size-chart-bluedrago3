@@ -1,58 +1,33 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <title>Adopt a Dog Form</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-<table border="1" cellspacing="0">
-<th>
-    <tr class="table-head-horiz">
-        <td class="heading">Part</td>
-        <td>XS</td>
-        <td>S</td>
-        <td>M</td>
-        <td>L</td>
-        <td>XL</td>
-    </tr>
-</th>
-<tbody>
-    <tr>
-        <td class="heading">Waist</td>
-        <td>25</td>
-        <td>28</td>
-        <td>30</td>
-        <td>31</td>
-        <td>32</td>
-    </tr>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Name" required><br><br>
 
-    <tr>
-        <td class="heading">Chest</td>
-        <td>34</td>
-        <td>34</td>
-        <td>38</td>
-        <td>40</td>
-        <td>41</td>
-    </tr>
-    <tr>
-        <td class="heading">Sleeve</td>
-        <td>23</td>
-        <td>24</td>
-        <td>24</td>
-        <td>25</td>
-        <td>26</td>
-    </tr>
-</tbody>
+    <label for="phone">Phone Number:</label>
+    <input type="text" id="phone" name="phone" placeholder="Phone Number" required><br><br>
 
-</table>
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" placeholder="Address" required><br><br>
 
-	
-    <script type="text/javascript" src="./script.js">
-</script>
+    <label for="checkbox">Have you ever lived with a Dog before?</label>
+    <input type="checkbox" id="checkbox" name="checkbox" value="Have you ever lived with a Dog before?"><br><br>
 
+    <label for="multiSelect">Please select your preferred breeds:</label>
+    <select id="multiSelect" name="multiSelect[]" multiple required>
+      <option value="Golden Retriever">Golden Retriever</option>
+      <option value="Labrador Retriever">Labrador Retriever</option>
+      <option value="German Shepherd">German Shepherd</option>
+      <option value="Poodle">Poodle</option>
+      <option value="Beagle">Beagle</option>
+      <option value="Bulldog">Bulldog</option>
+    </select><br><br>
+
+    <input type="submit" id="submit" value="Submit">
+  </form>
 </body>
-
 </html>
