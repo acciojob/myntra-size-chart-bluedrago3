@@ -1,20 +1,18 @@
 
-/* Your CSS Code here. */
-.table-head-horiz{
-	background-color:#C0504D;
-	
-}
-
-.heading{
-	text-align:left;
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 td{
-	width:50px;
+	width:45px;
 }
-
-thead>td{
+thead{
 	text-align:left;
+	background-color:rgb(191, 80, 77)
 }
-tbody>tr{
-	text-align:right;
+tbody{
+	text-align:right
+}
+.dress{
+	text-align:left;
 }
